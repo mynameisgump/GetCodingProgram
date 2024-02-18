@@ -530,6 +530,7 @@ function handleNextButton(){
 }
 
 nextButton.addEventListener("click", ()=>{
+    console.log("Running")
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     }else{
