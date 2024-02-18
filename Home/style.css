@@ -12,13 +12,19 @@ nav.index {
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5); 
 }
 
-.logo {
+@media screen and (max-width: 800px) {
+  .logo {
     height: 90px;
     width: 250px;
 }
+  /* nav.index img.logo {
+      height: 60px;
+  } */
+}
+
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 20%;
   padding-top: auto;
   display: flex;
@@ -129,3 +135,67 @@ nav.index2 {
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
+
+
+
+
+/* 
+@media screen and (max-width: 800px) {
+  nav.index img.logo {
+      height: 60px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav.index img.logo {
+      height: 40px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  nav.index img.logo {
+      height: 50px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  nav.index img.logo {
+      height: 70px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav.index img.logo {
+      height: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  nav.index img.logo {
+      height: 45px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  nav.index img.logo {
+      height: 44px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  nav.index img.logo {
+      height: 48px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav.index img.logo {
+      height: 42px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  nav.index img.logo {
+      height: 48px;
+  }
+} */
