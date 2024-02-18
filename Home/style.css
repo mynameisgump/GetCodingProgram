@@ -3,7 +3,7 @@ nav.index {
     background-color: #80BCBD;
     display: flex;
     display: 0;
-    height: 90px;
+    height: 50px;
     max-width: auto;
     border-style: outset 0;
     border-width: 0px;
@@ -16,18 +16,28 @@ nav.index {
   .logo {
     height: 90px;
     width: 250px;
-}
-  /* nav.index img.logo {
-      height: 60px;
-  } */
+  }
 }
 
+@media screen and (max-width: 375px) {
+  .logo {
+      width: 100px;
+      height: 50px;
+  }
+}
 
-h1 {
-  font-size: 30px;
-  padding-left: 20%;
-  padding-top: auto;
-  display: flex;
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 25px;
+    padding-left: 12%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 15px;
+    padding-left: 8%;
+  }
 }
 
 body {
@@ -82,7 +92,7 @@ a {
 
 .box {
     border-radius: 40px;
-    max-width: 850px;
+    max-width: 800px;
     background-color: #80BCBD;
     margin: auto;
     padding: 50px;
@@ -92,7 +102,7 @@ a {
 }
 
 .select {
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     font-weight: bolder;
 }
@@ -135,67 +145,3 @@ nav.index2 {
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
-
-
-
-
-/* 
-@media screen and (max-width: 800px) {
-  nav.index img.logo {
-      height: 60px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  nav.index img.logo {
-      height: 40px;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  nav.index img.logo {
-      height: 50px;
-  }
-}
-
-@media screen and (max-width: 810px) {
-  nav.index img.logo {
-      height: 70px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  nav.index img.logo {
-      height: 40px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  nav.index img.logo {
-      height: 45px;
-  }
-}
-
-@media screen and (max-width: 384px) {
-  nav.index img.logo {
-      height: 44px;
-  }
-}
-
-@media screen and (max-width: 412px) {
-  nav.index img.logo {
-      height: 48px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  nav.index img.logo {
-      height: 42px;
-  }
-}
-
-@media screen and (max-width: 412px) {
-  nav.index img.logo {
-      height: 48px;
-  }
-} */
